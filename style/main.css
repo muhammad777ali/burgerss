@@ -1,0 +1,473 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: #1f1e1e;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.header__inner{
+    display: flex;
+    padding: 17px 0;
+    gap: 5px;
+}
+.content__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.inner__title{
+    color: #FFF;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__link{
+    color: #FFF;
+text-align: right;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-bottom: 2px solid transparent;
+border-top: 2px solid transparent;
+transition: .3s;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.nav__content{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    border: 1px solid rgba(125, 115, 115, 0.50);
+background: rgba(0, 0, 0, 0.50);
+backdrop-filter: blur(7.5px);
+}
+.nav__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    width: 216px;
+height: 53px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 4px solid #06600F;
+background: rgba(10, 148, 24, 0.75);
+padding-left: 19px;
+padding: 21px 0;
+}
+.header__banner{
+    height: 700px;
+    background: url(../images/food-burger-wallpaper-preview\ 1.jpg);
+}
+.navbar{
+    padding: 10px 0;
+}
+.header__title{
+    color: #69CF17;
+    font-family: Raleway;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-top: 167px;
+}
+.header__mintitle{
+    color: #69CF17;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; /* 47.222% */
+}
+.header__text{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+}
+.header__btn{
+    background: rgba(105, 207, 23, 0.50);
+backdrop-filter: blur(9px);
+color: #FFF;
+text-align: right;
+font-family: Raleway;
+font-size: 50px;
+font-style: normal;
+font-weight: 100;
+line-height: 25px; /* 50% */
+width: 285px;
+height: 103px;
+flex-shrink: 0;
+text-align: center;
+border: none;
+transition: .5s;
+}
+.header__btns{
+    display: flex;
+    column-gap: 570px;
+    margin-top: 10px;
+}
+.header__btnthree{
+    width: 255px;
+height: 51px;
+flex-shrink: 0;border-radius: 6px;
+background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+color: #FFF;
+text-align: right;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+border: none;
+transition: .5s;
+}
+.banner__content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.header__btntwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__btn:hover{
+    background: #44d80a;
+    color: rgb(5, 5, 5);
+}
+.header__btnthree:hover{
+    background: #2aaa02;
+    color: black;
+}
+.header__link:hover{
+    color: rgb(236, 157, 9);
+    border-bottom: 2px solid rgb(20, 240, 0) ;
+    border-top: 2px rgb(13, 197, 6) solid ;
+    
+}
+.main__content{
+    display: flex;
+    column-gap: 32px;
+    padding-left: 21px;
+    padding: 21px;
+}
+.main__burger{
+    background: #292929;
+    box-shadow: 0px 1px 8px 0px rgba(17, 17, 17, 0.30);
+}
+.main__link{
+    color: #FFF;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 133.333% */
+transition: .3s;
+padding: 10px;
+border-bottom: 2px solid transparent;
+}
+.burger__content{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+height: 540px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid #FFF;
+background: #0C0C0C;
+padding: 15px 15px 15px 15px;
+row-gap: 15px;
+}
+.burger__img{
+    width: 338px;
+    height: 325px;
+    transition: .2s;
+    object-fit: cover;
+}
+.burger__title{
+    color: #FFF;
+font-family: Raleway;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: 15px; /* 78.947% */
+}
+.burger__text{
+    color: #FFF;
+font-family: Raleway;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 131.579% */
+}
+.main__burgers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background: #393636;
+    padding: 6px 6px 30px 6px;
+}
+.burger__img:hover{
+    padding: 10px;
+}
+.main__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #69CF17;
+font-family: Raleway;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 80% */
+}
+.map{
+    width: 1500px;
+height: 500px;
+flex-shrink: 0;
+padding-left: 75px;
+}
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    color: #FFF;
+text-align: right;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer__contact{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding: 55px;
+}
+.link{
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 10px;
+}
+.footer{
+
+    background: #1A3406;
+}
+.ff__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    width: 216px;
+height: 53px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 4px solid #06600F;
+background: rgba(10, 148, 24, 0.75);
+padding-left: 19px;
+padding: 21px 0;
+}
+.link:hover{
+    color: rgb(236, 157, 9);
+    border-bottom: 2px solid rgb(20, 240, 0) ;
+    border-top: 2px rgb(13, 197, 6) solid ;
+}
+.main__link:hover{
+    border-bottom: 2px solid rgb(255, 255, 255) ;
+    
+}
+.street__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0;
+    row-gap: 20px;
+}
+.txt{
+    color: #FFF;
+text-align: justify;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; /* 138.889% */
+}
+.street{
+    background: #0C0C0C;
+}
+.main{
+
+    width: 100%;
+}
+.footer{
+
+    width: 100%;
+}
+.menubg{
+    background: url(../images/food-burger-wallpaper-preview\ 1.jpg) no-repeat center / cover;
+    height: 793px;
+}
+.menu__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    padding-top: 20%;
+}
+.dev{
+    display: flex;
+    column-gap: 300px;
+}
+.btnn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+text-align: right;
+font-family: Raleway;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 6px;
+background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+width: 255px;
+height: 51px;
+flex-shrink: 0;
+transition: .5s;
+}
+.titles{
+    color: #69CF17;
+font-family: Raleway;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.btnn:hover{
+    background: rgb(1, 253, 114);
+    color: black;
+}
+.burger__titlew{
+    color: #04ff10;
+    font-family: Raleway;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 78.947% */
+}
+.login__put{
+    padding: 10px 10px;
+    width: 280px;
+    height: 75px;
+    font-size: 23px;
+    background: #db0202;
+    color: #04ff10;
+    border-radius: 10px;
+}
+.login__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    
+}
+.login__title{
+    color: #69CF17;
+font-family: Raleway;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 80% */
+padding: 40px 0;
+}
+.fd{
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.login__btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+text-align: right;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 6px;
+background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+width: 255px;
+height: 51px;
+flex-shrink: 0;
+transition: .5s;
+font-size: 30px;
+}
+.login__btns:hover{
+    color: black;
+    background: #06a8f3;
+}
+.login__btn{
+    display: flex;
+    column-gap: 999px;
+    padding-top: 200px;
+    padding-left: 35px;
+}
+.yubor__content{
+    padding-top: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 80px;
+}
+.yubor{
+    color: #69CF17;
+font-family: Raleway;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}

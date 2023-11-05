@@ -1,0 +1,247 @@
+@media(max-width:1540px){
+    .main__burgers{
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        padding-bottom: 15px;
+    }
+    .burger__content{
+        flex-shrink: 0;
+        scroll-snap-align: center;
+    }
+}
+@media(max-width:1118px){
+    .header__btns{
+        column-gap: 450px;
+    }
+}
+@media(max-width:1095px){
+    .banner__content{
+        padding-left: 30px;
+    }
+    .nav__content{
+        display: flex;
+        justify-content: space-around;
+    }
+    .header__content{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media(max-width:1018px){
+    .header__btns{
+        column-gap: 400px;
+    }
+
+}
+@media(max-width:988px){
+    .nav__content{
+        display: flex;
+        justify-content: space-around;
+    }
+    .header__content{
+        display: flex;
+        justify-content: space-around;
+    }
+    .header__btns{
+        column-gap: 340px;
+    }
+    .banner__content{
+        padding-left: 30px;
+    }
+}
+@media(max-width:938px){
+    .banner__content{
+
+    }
+}
+@media(max-width:916px){
+    .header__btns{
+        column-gap: 280px;
+    }
+}
+@media(max-width:854px){
+    .header__btns{
+        column-gap: 250px;
+    }
+}
+@media(max-width:828px){
+    .header__btn{
+        font-size: 43px;
+        width: 240px;
+        height: 87px;
+    }
+    .header__btnthree{
+        width: 200px;
+        height: 47px;
+        font-size: 16px;
+    }
+}
+@media(max-width:730px){
+    .header__btns{
+        column-gap: 200px;
+    }
+}
+@media(max-width:685px){
+    .header__btns{
+        column-gap: 160px;
+    }
+    .header__btn{
+        font-size: 35px;
+        width: 200px;
+        height: 72px;
+    }
+    .header__btnthree{
+        font-size: 14px;
+        width: 170px;
+        height: 43px;
+    }
+}
+@media(max-width:645px){
+    .header__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .header__inner{
+        display: flex;
+        justify-content: center;
+    }
+    .content__title{
+        margin-bottom: 15px;
+    }
+}
+@media(max-width:566px){
+    .header__title{
+        font-size: 60px;
+    }
+    .header__btn{
+        font-size: 32px;
+        width: 170px;
+        height: 65px;
+    }
+    .header__btns{
+        column-gap: 110px;
+    }
+}
+@media(max-width:488px){
+    .header__btn{
+        font-size: 30px;
+        width: 160px;
+        height: 62px;
+    }
+    .header__btns{
+        column-gap: 110px;
+    }
+    .header__btnthree{
+        width: 140px;
+        height: 45px;
+    }
+}
+@media(max-width:450px){
+    .header__btn{
+        font-size: 27px;
+        width: 145px;
+        height: 57px;
+    }
+    .header__btns{
+        column-gap: 87px;
+    }
+    .header__btnthree{
+        width: 130px;
+        height: 42px;
+    } 
+    .nav__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .navbar {
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+    }
+    .link{
+        font-size: 0;
+    }
+    .title{
+        font-size: 0;
+    }
+    .main__burgers{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .main__link{
+        font-size: 14px;
+    }
+    .map{
+        width: 370px;
+        height: 100px;
+    }
+    .footer__contact{
+        padding: 0;
+    }
+    .menubg{
+        width: 635px;
+        height: 1313px;
+    }
+    .dev {
+        display: flex;
+        column-gap: 87px;
+    }
+    .menu__content{
+        padding-top: 90%;
+    }
+    .main__content{
+        column-gap: 10px;
+    }
+    .content__title{
+        padding: 8px 0;
+    }
+    .login__btn{
+        column-gap: 50px;
+    }
+    .login__content{
+        padding-top: 36%;
+    }
+    .yubor{
+        font-size: 52px;
+    }
+}
+@media(max-width:391px){
+    .header__btns {
+        column-gap: 71px;
+    }
+    .map{
+        width: 300px;
+        height: 100px;
+    }
+    .main__link {
+        font-size: 10.6px;
+    }
+    .menubg {
+        width: 635px;
+        height: 1513px;
+    }
+    .menu__content{
+        padding-top: 90%;
+    }
+    .main__content{
+        column-gap: 10px;
+    }
+    .content__title{
+        padding: 8px 0;
+    }
+}
+@media(max-width:380px){
+    .main__content{
+        column-gap: 10px;
+    }
+    .main__link {
+        font-size: 14px;
+    }
+    .content__title{
+        padding: 8px 0;
+    }
+}
